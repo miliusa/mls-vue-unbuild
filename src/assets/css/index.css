@@ -1,0 +1,355 @@
+#container{
+    min-width:1260px;
+}
+.index-container{
+    margin:10px 100px;
+}
+/*sidebar*/
+#M-PC-sidebar{
+    width: 38px;
+    height: 100%;
+    position: fixed;
+    border-left: 1px solid #ddd;
+    background-color: #F6F6F6;
+    right: 0;
+    top: 0;
+    font-size: 12px;
+    z-index: 66;
+}
+#M-PC-sidebar .options{
+    position: absolute;
+    top: 62px;
+    border-top: 1px solid #ddd;
+}
+#container .options>div{
+    border-bottom: 1px solid #ddd;
+}
+#M-PC-sidebar div.download-app{
+    width: 10px;
+    height: 70px;
+    background: url('../img/index/phone_12x18.png') 13px 10px no-repeat;
+    position: relative;
+    box-sizing:content-box;
+    padding:41px 14px 0;
+    line-height: 1.2;
+    margin:0;
+    cursor:pointer;
+}
+#M-PC-sidebar .options span.side-vertical{
+    width: 40px;
+    height: 20px;
+    display: inline-block;
+    margin-top: 12px;
+    margin-left: -18px;
+    transform: rotate(90deg);
+}
+#M-PC-sidebar .options a{
+    display: block;
+    width: 10px;
+    padding:36px 14px 0;
+    line-height: 1.2;
+    color: #666;
+    text-decoration: none;
+    box-sizing:content-box;
+    background: 11px 13px no-repeat;
+}
+#M-PC-sidebar .options div.shopping-cart a{
+    height:61px;
+    background:url('../img/index/cart_17x13.png') 10px 9px no-repeat;
+}
+#M-PC-sidebar .options div.message a{
+    height: 52px;
+    background-image:url('../img/index/news_17x15.png');
+}
+#M-PC-sidebar .options div.discount a{
+    height:56px;
+    background-image:url('../img/index/coupon_18x13.png');
+}
+#M-PC-sidebar .options div.collect a{
+    height:46px;
+    padding-top:41px;
+    background-image: url('../img/index/collection_19x18.png') ;
+}
+#M-PC-sidebar .options div.footprint a{
+    height:49px;
+    padding-top:44px;
+    background-image:url('../img/index/track_15x21.png');
+}
+#M-PC-sidebar .options a:hover{
+    background-color:#f33866;
+    color:#fff;
+}
+#M-PC-sidebar div.download-app:hover{
+    color:#fff;
+    background: url('../img/index/phone_hover_12x18.png') 13px 10px no-repeat #f33866;
+}
+#M-PC-sidebar div.download-app div.erweima{
+    width: 140px;
+    height: 140px;
+    padding: 13px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    position: absolute;
+    right: 38px;
+    top: 0;
+    box-sizing:content-box;
+}
+#M-PC-sidebar div.download-app div.erweima img{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: 0;
+    top: 0;
+    z-index: 99;
+}
+#M-PC-sidebar div.download-app div.erweima:before{
+    border-width: 12px;
+    border-left-color: #fff;
+    top: 53px;
+}
+#M-PC-sidebar div.erweima:after{
+    border-width: 10px;
+    border-left-color: #fff;
+    top: 55px;
+}
+#M-PC-sidebar div.erweima:after, #M-PC-sidebar div.erweima:before {
+    border: solid transparent;
+    content: '';
+    height: 0;
+    left: 100%;
+    position: absolute;
+    width: 0;
+}
+#M-PC-sidebar .options div.shopping-cart a:hover{
+     background:url('../img/index/cart_hover_17x13.png') 10px 9px no-repeat #f33866;
+}
+#M-PC-sidebar .options div.message a:hover{
+    background-image:url('../img/index/news_hover_17x15.png');
+}
+#M-PC-sidebar .options div.discount a:hover{
+    background-image:url('../img/index/coupon_hover_18x13.png');
+}
+#M-PC-sidebar .options div.collect a:hover{
+    padding-top:41px;
+    background-image: url('../img/index/collect_hover_19x18.png') ;
+}
+#M-PC-sidebar .options div.footprint a:hover{
+    background-image:url('../img/index/track_hover_15x21.png');
+}
+/*sidebar end*/
+/*carousel start*/
+#myCarousel{
+    min-width:1200px;
+    position:relative;
+}
+#myCarousel a{
+    display: inline-block;
+    width: 36px;
+    height: 44px;
+    position: absolute;
+    top:50%;
+    margin-top:-22px;
+}
+#myCarousel a.left{
+    background: url('../img/index/arrow_left_36x44.png') no-repeat;
+}
+#myCarousel a.right{
+    right:0px;
+    background: url('../img/index/arrow_right_36x44.png') no-repeat;
+}
+#myCarousel div.carousel-inner img{
+    width:100%;
+}
+/*carousel end*/
+/*goods start*/
+#goods{
+    min-width:1200px;
+    margin-top:15px;
+}
+#goods .goods-nav{
+    margin-top:45px;
+    height:65px;
+    line-height: 28px;
+    text-align: center;
+}
+#goods .goods-nav a{
+    text-decoration: none;
+    font-size:20px;
+    color:#000;
+    margin-right:33px;
+    padding-bottom:14px;
+}
+#goods .goods-nav a.active{
+    color:#e40045;
+    border-bottom: 3px solid #e40045;
+}
+/*goods end*/
+/*home page other start*/
+.resume-container{ 
+    overflow: hidden;
+    margin-top: 15px;
+    border: 1px solid #e1e1e1;
+}
+.resume-wrap{
+    width: 25%;
+    float:left;
+    margin:20px 0;
+}
+.resume-wrap .catalog-info{
+    float:left;
+    margin-left:30px;
+    text-align: center;
+}
+.resume-wrap .catalog-info a{
+    display: block;
+}
+.resume-wrap .title{
+    padding: 2px;
+    font-size: 14px;
+    color: #333;
+    font-weight: 700;
+}
+.resume-wrap a.imgWrap{
+    margin-top:10px;
+}
+.resume-wrap a.imgWrap img{
+    width:60px;
+}
+.resume-wrap .catalog-choice{
+    float:left;
+    margin-left:15px;
+}
+.resume-wrap .catalog-choice li{
+    margin-bottom: 10px;
+}
+.resume-wrap .catalog-choice li>a:hover{
+    color:#f36;
+}
+/*home other page end*/
+/*order bar start*/
+.order-bar{
+    margin-top: 10px;
+    background: #f8f8f8;
+    border: 1px solid #e1e1e1;
+    margin-bottom:20px;
+}
+.order-bar .order-info{
+    float: left;
+}
+.order-bar .order-info>a{
+    display: block;
+    float: left;
+    padding: 0 20px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border: 1px solid transparent;
+}
+.order-info>a:hover{
+    color:#f36;
+}
+.price{
+    display: block;
+    position: relative;
+}
+.price .price-con{
+    display: block;
+    float: left;
+    line-height:40px;
+}
+.price-arrow{
+    display: inline-block;
+    margin-left: 3px;
+    width: 10px;
+    height: 40px;
+    background:url('../img/index/resumeImg/price_arrow_9x5.png') no-repeat center center;
+    background-size: 10px;
+}
+.price-desc{
+    display: none;
+    position: absolute;
+    top: -1px;
+    left: 0;
+    border: 1px solid #c5c5c5;
+    background-color: #fff;
+    z-index: 10;
+}
+.price-desc>li{
+    line-height: 30px;
+}
+.price-desc>li>a{
+    display: inline-block;
+    width:80px;
+}
+.price-desc>li>a:hover{
+    color:#f36;
+}
+.price-wrap{
+    float: left;
+    margin-left: 22px;
+    height: 40px;
+    line-height: 40px;
+}
+.price-wrap input{
+    width: 62px;
+    height: 22px;
+    border: 1px solid #eaeaea;
+}
+.price-wrap a.sure{
+    padding: 4px 5px;
+    border: 1px solid #eaeaea;
+    background: #fff;
+}
+.price-wrap a.sure:hover{
+    color:#f36;
+}
+/*order bar end*/
+/*clear float*/
+#goods .goods-content:after,.resume-wrap .catalog-choice:after,.resume-wrap:after,.order-bar:after{
+    clear:both;
+    content:"";
+    display: block;
+    visibility: hidden;
+    height:0;
+}
+#goods .goods-content{
+    min-width: 1250px;
+}
+/*************/
+/*page nav start*/
+.page-nav{
+    line-height: 30px;
+    margin: 10px auto;
+    display: flex;
+}
+.page-nav{
+    justify-content: center;
+}
+.page-list li{
+    display: inline-block;
+}
+.page-list li.prev a,.page-list li.next a{
+    width: auto;
+    height: 30px;
+    padding: 0 13px;
+    font-weight: 400;
+}
+.page-list li>a{   
+    text-align: center;
+    font-size: 14px;
+    display: inline-block;
+    margin: 0 1px;
+    min-width: 30px;
+    border: 1px solid #eee;
+    box-sizing: content-box;
+}
+.page-list li>a:hover{
+    border:1px solid #f36;
+    color:#f36;
+}
+.page-list li.active>a{
+    background-color:#f36;
+    color:#fff;
+}
+/*page nav end*/
